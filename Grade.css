@@ -125,6 +125,9 @@ body{
 @media screen and (max-width: 768px){
   #neumorphism{
     width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 300px;
   }
   #up{
     gap: 10px;
@@ -134,11 +137,17 @@ body{
     gap: 10px;
     width: 100%;
   }
+  /* #input{
+    flex-wrap: wrap;
+  } */
 }
 
 @media (min-width: 769px) and (max-width: 1024px){
   #neumorphism{
     width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 300px;
   }
   #up{
     gap: 10px;
@@ -148,5 +157,6 @@ body{
     gap: 10px;
     width: 100%;
   }
+  
 }
   
