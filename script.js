@@ -2,6 +2,9 @@ function calc(){
     let show = document.getElementById("result")
     let score = document.getElementById("inp")
 
+    if (num == "") {
+        show.innerHTML = '<p class="alert alert-danger text-center">Invalid Input</p>'
+    }
     if(score.value >= 0 && score.value <= 39){
         console.log("F-fail😡 olodo ni ee");
         show.innerHTML="F-fail😡 olodo ni ee"
